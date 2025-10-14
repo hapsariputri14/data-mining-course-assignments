@@ -8,17 +8,22 @@ Seluruh analisis dilakukan menggunakan **Python** melalui **Google Colab**, deng
 ## 📁 Struktur Folder
 Setiap folder berisi tugas dengan tema atau teknik yang berbeda.
 
-data-mining-course-assignments/
-┣ 📁 tugas-1-data-preprocessing
-┣ 📁 tugas-2-clustering
-┣ 📁 tugas-3-classification
-┣ 📁 tugas-4-regression
-┣ 📁 tugas-5-association-rule
-┣ 📁 datasets/
-┗ 📄 README.md
-
-yaml
-Salin kode
+📂 data-mining-course-assignments
+ ┣ 📁 jobsheet-1_pengantar-data-mining
+ ┣ 📁 jobsheet-2_mengumpulkan-data
+ ┣ 📁 jobsheet-3_menelaah-data
+ ┣ 📁 jobsheet-4_menentukan-objek-data
+ ┣ 📁 jobsheet-5_membersihkan-data
+ ┣ 📁 jobsheet-6_pelabelan-data
+ ┣ 📁 jobsheet-7_membangun-model-regresi
+ ┣ 📁 jobsheet-8_clustering
+ ┣ 📁 jobsheet-9_perbandingan-model
+ ┣ 📁 jobsheet-11_decision-tree
+ ┣ 📁 jobsheet-13_multiple-linear-regression
+ ┣ 📁 jobsheet-14_knn-python
+ ┣ 📁 jobsheet-15_support-vector-machine
+ ┣ 📁 datasets
+ ┗ 📄 README.md
 
 - `tugas-x-...` → berisi notebook (`.ipynb`), hasil visualisasi, dan laporan singkat (jobsheet).  
 - `datasets/` → berisi dataset pendukung (bisa link ke Kaggle atau Google Drive bila terlalu besar).  
