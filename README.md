@@ -1,4 +1,4 @@
-# 🧠 Data Mining Course Assignments
+# Data Mining Course Assignments
 
 Repository ini berisi kumpulan tugas dan proyek dari mata kuliah **Data Mining** yang saya kerjakan selama perkuliahan di program studi D4 Sistem Informasi Bisnis.  
 Seluruh analisis dilakukan menggunakan **Python** melalui **Google Colab**, dengan berbagai metode seperti *clustering*, *classification*, *regression*, dan *association rule mining*.
@@ -72,5 +72,3 @@ Fokus minat: *Data Analysis*, *Business Intelligence*, dan *Data Visualization*
 💻 **GitHub:** [github.com/nadyahapsariputri](https://github.com/nadyahapsariputri)
 
 ---
-
-⭐ Jangan lupa beri ⭐ jika kamu suka proyek ini!
