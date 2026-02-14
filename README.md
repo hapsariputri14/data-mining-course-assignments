@@ -31,6 +31,6 @@ Dalam proyek akhir, dilakukan evaluasi mendalam terhadap dataset rating film unt
 * **Machine Learning:** Scikit-learn (Preprocessing, Modeling, & Evaluation)
 
 ## Contact
-LinkedIn: https://www.linkedin.com/in/nadyahapsari-208b94205/
-GitHub: https://github.com/hapsariputri14
-Email: nadya.hp14@gmail.com
+LinkedIn: [https://www.linkedin.com/in/nadyahapsari-208b94205/]  
+GitHub: [https://github.com/hapsariputri14]
+Email: [nadya.hp14@gmail.com]
