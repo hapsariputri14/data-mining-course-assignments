@@ -59,8 +59,6 @@ To see how different algorithms perform when predicting movie ratings and user p
 
 ## Repository Structure
 
-Setiap folder dalam repositori ini disusun secara sistematis mengikuti alur kerja seorang Data Scientist:
-
 | Nama Folder | Deskripsi Materi & Teknik |
 | :--- | :--- |
 | **01 - 04 Dasar Data Mining** | Pengantar, teknik pengumpulan data, pemeriksaan statistik awal, dan penentuan objek data. |
