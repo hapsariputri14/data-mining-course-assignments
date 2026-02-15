@@ -1,6 +1,61 @@
-# Data Mining Course Assignments
+# Data Mining Course Projects
 
-Repositori ini berisi kumpulan tugas dan proyek praktikum mata kuliah Data Mining yang diselesaikan pada program studi D4 Sistem Informasi Bisnis. Proyek-proyek ini mencakup seluruh siklus pengolahan data, mulai dari pengumpulan data mentah, pembersihan, pelabelan, hingga pembangunan serta perbandingan berbagai model Machine Learning.
+This repository contains my practice assignments and lab projects from the Data Mining course in the Business Information Systems program. I use this repository as a place to document what I learned while working with real datasets using Python and machine learning libraries. Most of the work here focuses on understanding the data first, then building and evaluating models step by step.
+
+## Project Workflow
+In almost every project, I followed a similar workflow:
+
+* **Data Preprocessing**
+  Cleaning the dataset, handling missing values, and checking outliers.
+* **Exploratory Data Analysis (EDA)**
+  Creating visualizations to understand patterns, distributions, and relationships between features.
+* **Data Preparation**
+  Feature scaling (such as MinMax Scaling) and encoding categorical variables.
+* **Modeling**
+  Applying several machine learning algorithms and comparing the results.
+* **Evaluation**
+  Evaluating models using metrics like Accuracy, F1-Score, MAE, RMSE, and R² depending on the task.
+
+## Machine Learning Techniques Used
+I practiced three main machine learning approaches:
+
+* **Regression**
+  Predicting continuous values such as rating scores or prices.
+* **Classification**
+  Predicting categories, for example user preference (like / dislike) or customer churn.
+* **Clustering**
+  Grouping unlabeled data to find hidden patterns using algorithms like K-Means.
+
+## Featured Project: Movie Rating Model Comparison
+For the final project, I used the MovieLens dataset to compare several machine learning models on the same dataset.
+
+### Goal
+To see how different algorithms perform when predicting movie ratings and user preference.
+
+### Methods Used
+* Linear Regression
+* Decision Tree
+* K-Nearest Neighbors (KNN)
+* Support Vector Machine (SVM)
+* K-Means Clustering
+
+### Evaluation
+* **Regression:** MAE and RMSE
+* **Classification:** Accuracy and F1-Score
+
+## What I Learned
+* Model performance can change significantly after scaling the data.
+* KNN is very sensitive to feature scaling.
+* Some models perform well on training data but not on testing data (overfitting).
+* Choosing evaluation metrics is as important as choosing the algorithm.
+
+## Tools & Libraries
+* **Language:** Python
+* **Environment:** Google Colab
+* **Libraries:**
+  * Pandas & NumPy (data handling)
+  * Matplotlib & Seaborn (visualization)
+  * Scikit-learn (preprocessing, modeling, evaluation)
 
 ## Repository Structure
 
@@ -17,20 +72,16 @@ Setiap folder dalam repositori ini disusun secara sistematis mengikuti alur kerj
 | **15 Support Vector Machine** | Implementasi SVM menggunakan berbagai jenis kernel untuk menentukan kelayakan suatu produk. |
 | **Project Perbandingan Model** | Proyek akhir yang membandingkan performa berbagai algoritma (Regresi, Decision Tree, KNN, SVM, dan KMeans) pada satu dataset yang sama. |
 
-## Proyek Unggulan: Analisis Perbandingan Model
-Dalam proyek akhir, dilakukan evaluasi mendalam terhadap dataset rating film untuk menentukan algoritma yang paling efektif.
-* **Klasifikasi:** Membandingkan Decision Tree, SVM, dan KNN untuk memprediksi preferensi pengguna (suka/tidak suka).
-* **Regresi:** Menggunakan Linear Regression untuk memprediksi angka rating secara spesifik.
-* **Clustering:** Menggunakan KMeans untuk segmentasi profil pengguna berdasarkan pola rating.
+## How to Run
+Most projects are Jupyter/Colab notebooks:
+1. Open [Google Colab](https://colab.research.google.com/)
+2. Upload the `.ipynb` file from this repository
+3. Upload the required dataset (`.csv`) or connect Google Drive if mentioned in the notebook
+4. Run the cells sequentially
 
-## Teknologi & Pustaka (Tech Stack)
-* **Bahasa Pemrograman:** Python
-* **Lingkungan:** Google Colab
-* **Manipulasi Data:** Pandas, NumPy
-* **Visualisasi:** Matplotlib, Seaborn
-* **Machine Learning:** Scikit-learn (Preprocessing, Modeling, & Evaluation)
+---
 
 ## Contact
-LinkedIn: [https://www.linkedin.com/in/nadyahapsari-208b94205/]  
-GitHub: [https://github.com/hapsariputri14]
-Email: [nadya.hp14@gmail.com]
+* **GitHub:** [github.com/hapsariputri14](https://github.com/hapsariputri14)
+* **LinkedIn:** [Nadya Hapsari Putri](https://www.linkedin.com/in/nadyahapsari-208b94205/)
+* **Email:** nadya.hp14@gmail.com
